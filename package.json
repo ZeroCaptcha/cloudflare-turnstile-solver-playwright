@@ -1,0 +1,19 @@
+{
+  "name": "cloudflare-turnstile-solver-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Solve Cloudflare Turnstile and pass Cloudflare challenge pages in Playwright with the ZeroCaptcha API.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "solve": "node solve-turnstile.mjs",
+    "challenge": "node pass-challenge.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
